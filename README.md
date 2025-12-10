@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 1. Run Notebook
+### Run Notebook
 
 ```
 jupyter notebook Plant_Disease_Detection.ipynb
@@ -57,18 +57,6 @@ The notebook guides you through:
 * Preprocessing
 * Model training
 * Evaluation
-
-### 2. Optional Project Structure (Recommended)
-
-```
-src/
-  data.py
-  model.py
-  train.py
-  evaluate.py
-```
-
-This is optional if you plan to convert the notebook into modular Python scripts.
 
 ---
 
@@ -96,21 +84,3 @@ The notebook typically includes:
 * Sample predictions
 
 ---
-
-## Contributing
-
-Contributions are welcome. Fork the repository, create a branch, commit changes, and open a pull request.
-
----
-
-## License
-
-Add an appropriate license (e.g., MIT) to the repository.
-
----
-
-If you want, I can also generate:
-
-* `requirements.txt`
-* Modular scripts (`train.py`, `predict.py`)
-* A short README version even more compact
